@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - NiceShop Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceShop
+  * Template URL: https://bootstrapmade.com/niceshop-bootstrap-ecommerce-template/
+  * Updated: Aug 26 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+    <!-- Top Bar -->
+    <div class="top-bar py-2">
+      <div class="container-fluid container-xl">
+        <div class="row align-items-center">
+          <div class="col-lg-4 d-none d-lg-flex">
+            <div class="top-bar-item">
+              <i class="bi bi-telephone-fill me-2"></i>
+              <span>Need help? Call us: </span>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 text-center">
+            <div class="announcement-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": 1,
+                  "direction": "vertical",
+                  "effect": "slide"
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">🚚 Free shipping on orders over $50</div>
+                <div class="swiper-slide">💰 30 days money back guarantee.</div>
+                <div class="swiper-slide">🎁 20% off on your first order</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="d-flex justify-content-end">
+              <div class="top-bar-item dropdown me-3">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                  <i class="bi bi-translate me-2"></i>EN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-check2 me-2 selected-icon"></i>English</a></li>
+                  <li><a class="dropdown-item" href="#">Español</a></li>
+                  <li><a class="dropdown-item" href="#">Français</a></li>
+                  <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                </ul>
+              </div>
+              <div class="top-bar-item dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                  <i class="bi bi-currency-dollar me-2"></i>USD
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-check2 me-2 selected-icon"></i>USD</a></li>
+                  <li><a class="dropdown-item" href="#">EUR</a></li>
+                  <li><a class="dropdown-item" href="#">GBP</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Header -->
+    <div class="main-header">
+      <div class="container-fluid container-xl">
+        <div class="d-flex py-3 align-items-center justify-content-between">
+
+          <!-- Logo -->
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.webp" alt=""> -->
+            <h1 class="sitename">NiceShop</h1>
+          </a>
+
+          <!-- Search -->
+          <form class="search-form desktop-search-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for products">
+              <button class="btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+
+          <!-- Actions -->
+          <div class="header-actions d-flex align-items-center justify-content-end">
+
+            <!-- Mobile Search Toggle -->
+            <button class="header-action-btn mobile-search-toggle d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileSearch" aria-expanded="false" aria-controls="mobileSearch">
+              <i class="bi bi-search"></i>
+            </button>
+
+            <!-- Account -->
+            <div class="dropdown account-dropdown">
+              <button class="header-action-btn" data-bs-toggle="dropdown">
+                <i class="bi bi-person"></i>
+              </button>
+              <div class="dropdown-menu">
+                <div class="dropdown-header">
+                  <h6>Welcome to <span class="sitename">FashionStore</span></h6>
+                  <p class="mb-0">Access account &amp; manage orders</p>
+                </div>
+                <div class="dropdown-body">
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-person-circle me-2"></i>
+                    <span>My Profile</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-bag-check me-2"></i>
+                    <span>My Orders</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-heart me-2"></i>
+                    <span>My Wishlist</span>
+                  </a>
+                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                    <i class="bi bi-gear me-2"></i>
+                    <span>Settings</span>
+                  </a>
+                </div>
+                <div class="dropdown-footer">
+                  <a href="register.html" class="btn btn-primary w-100 mb-2">Sign In</a>
+                  <a href="login.html" class="btn btn-outline-primary w-100">Register</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Wishlist -->
+            <a href="account.html" class="header-action-btn d-none d-md-block">
+              <i class="bi bi-heart"></i>
+              <span class="badge">0</span>
+            </a>
+
+            <!-- Cart -->
+            <a href="cart.html" class="header-action-btn">
+              <i class="bi bi-cart3"></i>
+              <span class="badge">3</span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <i class="mobile-nav-toggle d-xl-none bi bi-list me-0"></i>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="header-nav">
+      <div class="container-fluid container-xl position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="product-details.html">Product Details</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+
+
+            <li><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Mobile Search Form -->
+    <div class="collapse" id="mobileSearch">
+      <div class="container">
+        <form class="search-form">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for products">
+            <button class="btn" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="content-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="hero-title">Discover Amazing Products</h1>
+            <p class="hero-description">Explore our curated collection of premium items designed to enhance your lifestyle. From fashion to tech, find everything you need with exclusive deals and fast shipping.</p>
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="200">
+              <a href="#products" class="btn-primary">Shop Now</a>
+              <a href="#categories" class="btn-secondary">Browse Categories</a>
+            </div>
+            <div class="features-list" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-item">
+                <i class="bi bi-truck"></i>
+                <span>Free Shipping</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-award"></i>
+                <span>Quality Guarantee</span>
+              </div>
+              <div class="feature-item">
+                <i class="bi bi-headset"></i>
+                <span>24/7 Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visuals">
+          <div class="product-showcase" data-aos="fade-left" data-aos-delay="200">
+            <div class="product-card featured">
+              <img src="assets/img/perfumes/306499307_458201649700463_1903344197874694693_n.jpg" alt="Signature Perfume 1" class="img-fluid">
+              <div class="product-badge">Best Seller</div>
+              <div class="product-info">
+                <h4>Signature Perfume 1</h4>
+                <div class="price">
+                  <span class="sale-price">$299</span>
+                  <span class="original-price">$399</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-grid">
+              <div class="product-mini" data-aos="zoom-in" data-aos-delay="400">
+                <img src="assets/img/perfumes/312199083_204713358621696_7223313981375974050_n.jpg" alt="Signature Perfume 2" class="img-fluid">
+                <span class="mini-price">$89</span>
+              </div>
+              <div class="product-mini" data-aos="zoom-in" data-aos-delay="500">
+                <img src="assets/img/perfumes/324433486_2464251613738297_8519664555471036747_n.jpg" alt="Signature Perfume 3" class="img-fluid">
+                <span class="mini-price">$149</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-elements">
+            <div class="floating-icon cart" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-cart3"></i>
+              <span class="notification-dot">3</span>
+            </div>
+            <div class="floating-icon wishlist" data-aos="fade-up" data-aos-delay="700">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="floating-icon search" data-aos="fade-up" data-aos-delay="800">
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Promo Cards Section -->
+    <section id="promo-cards" class="promo-cards section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="category-featured" data-aos="fade-right" data-aos-delay="200">
+              <div class="category-image">
+                <img src="assets/img/product/product-f-2.webp" alt="Women's Collection" class="img-fluid">
+              </div>
+              <div class="category-content">
+                <span class="category-tag">Trending Now</span>
+                <h2>New Summer Collection</h2>
+                <p>Discover our latest arrivals designed for the modern lifestyle. Elegant, comfortable, and sustainable fashion for every occasion.</p>
+                <a href="shop.html" class="btn-shop">Explore Collection <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+
+              <div class="col-xl-6">
+                <div class="category-card cat-men" data-aos="fade-up" data-aos-delay="300">
+                  <div class="category-image">
+                    <img src="assets/img/product/product-m-5.webp" alt="Men's Fashion" class="img-fluid">
+                  </div>
+                  <div class="category-content">
+                    <h4>Men's Wear</h4>
+                    <p>242 products</p>
+                    <a href="shop.html" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-6">
+                <div class="category-card cat-kids" data-aos="fade-up" data-aos-delay="400">
+                  <div class="category-image">
+                    <img src="assets/img/product/product-8.webp" alt="Kid's Fashion" class="img-fluid">
+                  </div>
+                  <div class="category-content">
+                    <h4>Kid's Fashion</h4>
+                    <p>185 products</p>
+                    <a href="shop.html" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-6">
+                <div class="category-card cat-cosmetics" data-aos="fade-up" data-aos-delay="500">
+                  <div class="category-image">
+                    <img src="assets/img/product/product-3.webp" alt="Cosmetics" class="img-fluid">
+                  </div>
+                  <div class="category-content">
+                    <h4>Beauty Products</h4>
+                    <p>127 products</p>
+                    <a href="shop.html" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-6">
+                <div class="category-card cat-accessories" data-aos="fade-up" data-aos-delay="600">
+                  <div class="category-image">
+                    <img src="assets/img/product/product-12.webp" alt="Accessories" class="img-fluid">
+                  </div>
+                  <div class="category-content">
+                    <h4>Accessories</h4>
+                    <p>308 products</p>
+                    <a href="shop.html" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- /Promo Cards Section -->
+
+    <!-- Best Sellers Section -->
+    <section id="best-sellers" class="best-sellers section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Best Sellers</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-5">
+
+          <!-- Product 1 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-item">
+              <div class="product-image">
+                <div class="product-badge">Limited</div>
+                <img src="assets/img/perfumes/324702071_863551041582034_6163813705427935903_n.jpg" alt="Signature Perfume 4" class="img-fluid" loading="lazy">
+                <div class="product-actions">
+                  <button class="action-btn wishlist-btn">
+                    <i class="bi bi-heart"></i>
+                  </button>
+                  <button class="action-btn compare-btn">
+                    <i class="bi bi-arrow-left-right"></i>
+                  </button>
+                  <button class="action-btn quickview-btn">
+                    <i class="bi bi-zoom-in"></i>
+                  </button>
+                </div>
+                <button class="cart-btn">Select Options</button>
+              </div>
+              <div class="product-info">
+                <div class="product-category">Perfumes</div>
+                <h4 class="product-name"><a href="product-details.html">Signature Perfume 4</a></h4>
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <span class="rating-count">(24)</span>
+                </div>
+                <div class="product-price">$189.00</div>
+                <div class="color-swatches">
+                  <span class="swatch active" style="background-color: #2563eb;"></span>
+                  <span class="swatch" style="background-color: #059669;"></span>
+                  <span class="swatch" style="background-color: #dc2626;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Product 1 -->
+
+          <!-- Product 2 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-item">
+              <div class="product-image">
+                <div class="product-badge sale-badge">25% Off</div>
+                <img src="assets/img/perfumes/325466675_741667013804956_2870821626581796989_n.jpg" alt="Signature Perfume 5" class="img-fluid" loading="lazy">
+                <div class="product-actions">
+                  <button class="action-btn wishlist-btn">
+                    <i class="bi bi-heart"></i>
+                  </button>
+                  <button class="action-btn compare-btn">
+                    <i class="bi bi-arrow-left-right"></i>
+                  </button>
+                  <button class="action-btn quickview-btn">
+                    <i class="bi bi-zoom-in"></i>
+                  </button>
+                </div>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+              <div class="product-info">
+                <div class="product-category">Perfumes</div>
+                <h4 class="product-name"><a href="product-details.html">Signature Perfume 5</a></h4>
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                  <span class="rating-count">(38)</span>
+                </div>
+                <div class="product-price">
+                  <span class="old-price">$240.00</span>
+                  <span class="current-price">$180.00</span>
+                </div>
+                <div class="color-swatches">
+                  <span class="swatch active" style="background-color: #1f2937;"></span>
+                  <span class="swatch" style="background-color: #f59e0b;"></span>
+                  <span class="swatch" style="background-color: #8b5cf6;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Product 2 -->
+
+          <!-- Product 3 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-item">
+              <div class="product-image">
+                <img src="assets/img/perfumes/327158656_482457380548072_4697959585527755978_n.jpg" alt="Signature Perfume 6" class="img-fluid" loading="lazy">
+                <div class="product-actions">
+                  <button class="action-btn wishlist-btn">
+                    <i class="bi bi-heart"></i>
+                  </button>
+                  <button class="action-btn compare-btn">
+                    <i class="bi bi-arrow-left-right"></i>
+                  </button>
+                  <button class="action-btn quickview-btn">
+                    <i class="bi bi-zoom-in"></i>
+                  </button>
+                </div>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+              <div class="product-info">
+                <div class="product-category">Perfumes</div>
+                <h4 class="product-name"><a href="product-details.html">Signature Perfume 6</a></h4>
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <span class="rating-count">(12)</span>
+                </div>
+                <div class="product-price">$95.00</div>
+                <div class="color-swatches">
+                  <span class="swatch active" style="background-color: #ef4444;"></span>
+                  <span class="swatch" style="background-color: #06b6d4;"></span>
+                  <span class="swatch" style="background-color: #10b981;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Product 3 -->
+
+          <!-- Product 4 -->
+          <div class="col-lg-3 col-md-6">
+            <div class="product-item">
+              <div class="product-image">
+                <div class="product-badge trending-badge">Trending</div>
+                <img src="assets/img/perfumes/340000138_588151106581096_3717905146916483505_n.jpg" alt="Signature Perfume 7" class="img-fluid" loading="lazy">
+                <div class="product-actions">
+                  <button class="action-btn wishlist-btn active">
+                    <i class="bi bi-heart-fill"></i>
+                  </button>
+                  <button class="action-btn compare-btn">
+                    <i class="bi bi-arrow-left-right"></i>
+                  </button>
+                  <button class="action-btn quickview-btn">
+                    <i class="bi bi-zoom-in"></i>
+                  </button>
+                </div>
+                <button class="cart-btn">Add to Cart</button>
+              </div>
+              <div class="product-info">
+                <div class="product-category">Perfumes</div>
+                <h4 class="product-name"><a href="product-details.html">Signature Perfume 7</a></h4>
+                <div class="product-rating">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <span class="rating-count">(56)</span>
+                </div>
+                <div class="product-price">$165.00</div>
+                <div class="color-swatches">
+                  <span class="swatch" style="background-color: #64748b;"></span>
+                  <span class="swatch active" style="background-color: #7c3aed;"></span>
+                  <span class="swatch" style="background-color: #f59e0b;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Product 4 -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Best Sellers Section -->
+
+    <!-- Cards Section -->
+    <section id="cards" class="cards section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="product-category">
+              <h3 class="category-title">
+                <i class="bi bi-fire"></i> Trending Now
+              </h3>
+              <div class="product-list">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/365753821_1707331183025904_7672987533787763309_n.jpg" alt="Signature Perfume 8" class="img-fluid">
+                    <div class="product-badges">
+                      <span class="badge-new">New</span>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 8</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <span>(24)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$87.50</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/366020765_316343430739585_4094504609675688635_n.jpg" alt="Signature Perfume 9" class="img-fluid">
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 9</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <span>(41)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$39.99</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/366109326_1088897242087049_6169477365812924736_n.jpg" alt="Signature Perfume 10" class="img-fluid">
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 10</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <span>(18)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$45.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="product-category">
+              <h3 class="category-title">
+                <i class="bi bi-award"></i> Best Sellers
+              </h3>
+              <div class="product-list">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/366123412_1030937801597120_7818545156669449548_n.jpg" alt="Signature Perfume 11" class="img-fluid">
+                    <div class="product-badges">
+                      <span class="badge-sale">-15%</span>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 11</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <span>(87)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$68.00</span>
+                      <span class="old-price">$80.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/366463342_1096048334709086_701941157357037399_n.jpg" alt="Signature Perfume 12" class="img-fluid">
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 12</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <span>(56)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$129.99</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/55851137_138454273876808_4868635991720665065_n.jpg" alt="Signature Perfume 13" class="img-fluid">
+                    <div class="product-badges">
+                      <span class="badge-hot">Hot</span>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 13</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <span>(112)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$95.50</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="400">
+            <div class="product-category">
+              <h3 class="category-title">
+                <i class="bi bi-star"></i> Featured Items
+              </h3>
+              <div class="product-list">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/55932213_402062080344705_672821436781929618_n.jpg" alt="Signature Perfume 14" class="img-fluid">
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 14</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star"></i>
+                      <span>(32)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$75.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/56161401_2320247074662324_5154045506180624454_n.jpg" alt="Signature Perfume 15" class="img-fluid">
+                    <div class="product-badges">
+                      <span class="badge-limited">Limited</span>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 15</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <span>(47)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$42.99</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="assets/img/perfumes/56284086_727630584301007_5175547124899899485_n.jpg" alt="Signature Perfume 16" class="img-fluid">
+                  </div>
+                  <div class="product-info">
+                    <h4 class="product-name">Signature Perfume 16</h4>
+                    <div class="product-rating">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <span>(64)</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">$89.99</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Cards Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="main-content text-center" data-aos="zoom-in" data-aos-delay="200">
+              <div class="offer-badge" data-aos="fade-down" data-aos-delay="250">
+                <span class="limited-time">Limited Time</span>
+                <span class="offer-text">50% OFF</span>
+              </div>
+
+              <h2 data-aos="fade-up" data-aos-delay="300">Exclusive Flash Sale</h2>
+
+              <p class="subtitle" data-aos="fade-up" data-aos-delay="350">Don't miss out on our biggest sale of the year. Premium quality products at unbeatable prices for the next 48 hours only.</p>
+
+              <div class="countdown-wrapper" data-aos="fade-up" data-aos-delay="400">
+                <div class="countdown d-flex justify-content-center" data-count="2025/12/31">
+                  <div>
+                    <h3 class="count-days"></h3>
+                    <h4>Days</h4>
+                  </div>
+                  <div>
+                    <h3 class="count-hours"></h3>
+                    <h4>Hours</h4>
+                  </div>
+                  <div>
+                    <h3 class="count-minutes"></h3>
+                    <h4>Minutes</h4>
+                  </div>
+                  <div>
+                    <h3 class="count-seconds"></h3>
+                    <h4>Seconds</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="action-buttons" data-aos="fade-up" data-aos-delay="450">
+                <a href="shop.html" class="btn-shop-now">Shop Now</a>
+                <a href="shop.html" class="btn-view-deals">View All Deals</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row featured-products-row" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="product-showcase">
+              <div class="product-image">
+                <img src="assets/img/perfumes/56349299_412465806245049_1267847188322048942_n.jpg" alt="Signature Perfume 17" class="img-fluid">
+                <div class="discount-badge">-45%</div>
+              </div>
+              <div class="product-details">
+                <h6>Signature Perfume 17</h6>
+                <div class="price-section">
+                  <span class="original-price">$129</span>
+                  <span class="sale-price">$71</span>
+                </div>
+                <div class="rating-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <span class="rating-count">(324)</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Product Showcase -->
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+            <div class="product-showcase">
+              <div class="product-image">
+                <img src="assets/img/perfumes/56412496_810977902616695_4158228357959606537_n.jpg" alt="Signature Perfume 18" class="img-fluid">
+                <div class="discount-badge">-60%</div>
+              </div>
+              <div class="product-details">
+                <h6>Signature Perfume 18</h6>
+                <div class="price-section">
+                  <span class="original-price">$89</span>
+                  <span class="sale-price">$36</span>
+                </div>
+                <div class="rating-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <span class="rating-count">(198)</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Product Showcase -->
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="product-showcase">
+              <div class="product-image">
+                <img src="assets/img/perfumes/56449198_1392787757528069_992892607060730823_n.jpg" alt="Signature Perfume 19" class="img-fluid">
+                <div class="discount-badge">-35%</div>
+              </div>
+              <div class="product-details">
+                <h6>Signature Perfume 19</h6>
+                <div class="price-section">
+                  <span class="original-price">$159</span>
+                  <span class="sale-price">$103</span>
+                </div>
+                <div class="rating-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <span class="rating-count">(267)</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Product Showcase -->
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="250">
+            <div class="product-showcase">
+              <div class="product-image">
+                <img src="assets/img/perfumes/56453424_614695248942484_8011522795166646521_n.jpg" alt="Signature Perfume 20" class="img-fluid">
+                <div class="discount-badge">-55%</div>
+              </div>
+              <div class="product-details">
+                <h6>Signature Perfume 20</h6>
+                <div class="price-section">
+                  <span class="original-price">$75</span>
+                  <span class="sale-price">$34</span>
+                </div>
+                <div class="rating-stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <span class="rating-count">(142)</span>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Product Showcase -->
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget footer-about">
+              <a href="index.html" class="logo">
+                <span class="sitename">NiceShop</span>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nibh vehicula, facilisis magna ut, consectetur lorem. Proin eget tortor risus.</p>
+
+              <div class="social-links mt-4">
+                <h5>Connect With Us</h5>
+                <div class="social-icons">
+                  <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                  <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+                  <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Shop</h4>
+              <ul class="footer-links">
+                <li><a href="category.html">New Arrivals</a></li>
+                <li><a href="category.html">Bestsellers</a></li>
+                <li><a href="category.html">Women's Clothing</a></li>
+                <li><a href="category.html">Men's Clothing</a></li>
+                <li><a href="category.html">Accessories</a></li>
+                <li><a href="category.html">Sale</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h4>Support</h4>
+              <ul class="footer-links">
+                <li><a href="support.html">Help Center</a></li>
+                <li><a href="account.html">Order Status</a></li>
+                <li><a href="shiping-info.html">Shipping Info</a></li>
+                <li><a href="return-policy.html">Returns &amp; Exchanges</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h4>Contact Information</h4>
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>123 Fashion Street, New York, NY 10001</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-telephone"></i>
+                  <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <span>hello@example.com</span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-clock"></i>
+                  <span>Monday-Friday: 9am-6pm<br>Saturday: 10am-4pm<br>Sunday: Closed</span>
+                </div>
+              </div>
+
+              <div class="app-buttons mt-4">
+                <a href="#" class="app-btn">
+                  <i class="bi bi-apple"></i>
+                  <span>App Store</span>
+                </a>
+                <a href="#" class="app-btn">
+                  <i class="bi bi-google-play"></i>
+                  <span>Google Play</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row gy-3 align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="copyright">
+              <p>© <span>Copyright</span> <strong class="sitename">NiceShop</strong>. All Rights Reserved.</p>
+            </div>
+            <div class="credits mt-1">
+            
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center gap-4">
+              <div class="payment-methods">
+                <div class="payment-icons">
+                  <i class="bi bi-credit-card" aria-label="Credit Card"></i>
+                  <i class="bi bi-paypal" aria-label="PayPal"></i>
+                  <i class="bi bi-apple" aria-label="Apple Pay"></i>
+                  <i class="bi bi-google" aria-label="Google Pay"></i>
+                  <i class="bi bi-shop" aria-label="Shop Pay"></i>
+                  <i class="bi bi-cash" aria-label="Cash on Delivery"></i>
+                </div>
+              </div>
+
+              <div class="legal-links">
+                <a href="tos.html">Terms</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="tos.html">Cookies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/drift-zoom/Drift.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
