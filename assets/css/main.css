@@ -1,6 +1,6 @@
 /**
-* Template Name: NiceShop
-* Template URL: https://bootstrapmade.com/niceshop-bootstrap-ecommerce-template/
+* Template Name: perfumer
+* Template URL: https://bootstrapmade.com/perfumer-bootstrap-ecommerce-template/
 * Updated: Aug 26 2025 with Bootstrap v5.3.7
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
